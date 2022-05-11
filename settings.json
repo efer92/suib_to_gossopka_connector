@@ -1,0 +1,27 @@
+﻿{
+  "general_settings": {
+    "log_level": "DEBUG",
+    "log_path": "C:/temp/connector",
+    "sync_timeout": 300,
+    "error_timeout": 5,
+    "max_tries": 5,
+    "timezone": "+03:00"
+  },
+  "gossopka_settings": {
+    "ssl": true,
+    "server_name": "test-lk.cert.gov.ru",
+    "server_port": 443,
+    "server_token": "ТОКЕН_АВТОРИЗАЦИИ",
+    "organization": "ИМЯ_КОМПАНИИ"
+  },
+  "suib_settings": {
+    "ssl": false,
+    "server_name": "IP",
+    "server_port": 13080,
+    "account_name": "ЛОГИН_В_BASE_64",
+    "account_password": "ПАРОЛЬ_В_BASE_64",
+    "encrypt": false,
+    "incident_id_prefix": "ПРЕФИКС",
+    "connection_timeout": 300
+  }
+}
